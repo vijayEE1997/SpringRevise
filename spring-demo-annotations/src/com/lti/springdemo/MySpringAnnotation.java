@@ -12,6 +12,7 @@ public class MySpringAnnotation {
 		Coach theCoach = context.getBean("tennisCoach",Coach.class);
 		//call method
 		System.out.println(theCoach.getDailyWorkout());
+		System.out.println(theCoach.getDailyFortune());
 	}
 
 }
